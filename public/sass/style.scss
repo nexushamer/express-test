@@ -1,0 +1,11 @@
+@import "fonts";
+
+body {
+   font-size: $f-normal;
+   font-family: $tipo-general;
+}
+
+.container {
+   display: block;
+   border: 1px solid red;
+}
