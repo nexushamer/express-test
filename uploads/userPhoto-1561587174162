@@ -1,0 +1,2915 @@
+{
+    "entries": [
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-17T15:04:02.245Z",
+                    "modified": "2019-05-17T15:04:02.245Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "schema",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.etag"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.config"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdecd62031f1569f99e1347"
+                },
+                "id": "5cdecd62031f1569f99e1346",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-28T20:13:41.985Z",
+                    "modified": "2019-05-28T20:13:41.985Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "userStats",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.ranked"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "location"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.ns",
+                                        "type",
+                                        "data.value",
+                                        "data.attributes",
+                                        "data.rank",
+                                        "data.index"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ced96755e53032d0ee8f105"
+                },
+                "id": "5ced96755e53032d0ee8f104",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T22:14:57.939Z",
+                    "modified": "2019-05-16T22:14:57.939Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "statTypes",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "dmetadata.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.value",
+                                        "data.ranking",
+                                        "data.aggregation",
+                                        "data.ttl"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdde0e17da45209a86d3428"
+                },
+                "id": "5cdde0e17da45209a86d3427",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T22:11:28.408Z",
+                    "modified": "2019-05-16T22:11:28.408Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "scoreTypes",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "data.comments",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.statTypes",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.statTypes"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdde0107da45209a86d3403"
+                },
+                "id": "5cdde0107da45209a86d3402",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-24T15:35:23.697Z",
+                    "modified": "2019-05-24T15:35:23.697Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "itemsOffersComponentSchema",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "name"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "schedule"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "attributes"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "preconditions",
+                                        "includedOffers",
+                                        "requiredTypes",
+                                        "requiredQuantities",
+                                        "consumes",
+                                        "debits",
+                                        "credits",
+                                        "grantsItemsOfType",
+                                        "grants"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Labels": {
+                                    "fieldsPath": [
+                                        "labels"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce80f3b9bf5e72a4fe52bc9"
+                },
+                "id": "5ce80f3b9bf5e72a4fe52bc8",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-20T13:58:12.430Z",
+                    "modified": "2019-05-20T13:58:12.430Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "ps4StoreOffers",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "ItemOffer": {
+                                    "fieldsPath": [
+                                        "data.itemOffer",
+                                        "data.storeOfferId"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.entitlementLabel",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.scriptName"
+                                    ]
+                                },
+                                "shopItemOffers": {
+                                    "subPlugin": "shopItemOffers",
+                                    "service": "inventory",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce2b2744479517bc90b394b"
+                },
+                "id": "5ce2b2744479517bc90b394a",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:35:22.384Z",
+                    "modified": "2019-05-16T21:35:22.384Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "segments",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 2
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddd79a7da45209a86d32f9"
+                },
+                "id": "5cddd79a7da45209a86d32f8",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-20T16:33:11.528Z",
+                    "modified": "2019-05-20T16:33:11.528Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "itemOffers",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Offer details": {
+                                    "fieldsPath": [
+                                        "data.onAccept",
+                                        "data.preconditions",
+                                        "data.includedOffers",
+                                        "data.consumes",
+                                        "data.debits",
+                                        "data.credits",
+                                        "data.grantsItemsOfType",
+                                        "data.grants"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Labels": {
+                                    "fieldsPath": [
+                                        "data.labels"
+                                    ],
+                                    "orderingPosition": 6
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.onAccept"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce2d6c74479517bc90b3a6d"
+                },
+                "id": "5ce2d6c74479517bc90b3a6c",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-29T13:38:28.703Z",
+                    "modified": "2019-05-29T13:38:28.703Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "userPresences",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.labels",
+                                        "type",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cee8b545e53032d0ee8f2b9"
+                },
+                "id": "5cee8b545e53032d0ee8f2b8",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-29T22:02:46.838Z",
+                    "modified": "2019-05-29T22:02:46.838Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "featureSettings",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.etag",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cef018630b6c26b20ed6d96"
+                },
+                "id": "5cf52a56e3edbd4c0cfd6e6a",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:41:12.324Z",
+                    "modified": "2019-05-16T21:41:12.324Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "schedules",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.rrule",
+                                        "data.from",
+                                        "data.to"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddd8f87da45209a86d3329"
+                },
+                "id": "5cddd8f87da45209a86d3328",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-20T22:05:55.338Z",
+                    "modified": "2019-05-20T22:05:55.338Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "CommonFormSchema",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "Description": {
+                                    "fieldsPath": [
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Announcement": {
+                                    "fieldsPath": [
+                                        "data.announceSeconds",
+                                        "data.announcement"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.scriptName",
+                                        "data.rank",
+                                        "data.labels",
+                                        "data.description.name",
+                                        "data.maxAttempts",
+                                        "data.maxSucceeds"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce324c325dba05365f03b9c"
+                },
+                "id": "5ce324c325dba05365f03b9b",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:31:17.882Z",
+                    "modified": "2019-05-16T21:31:17.882Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "userTags",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "attributes"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.ns"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Location": {
+                                    "fieldsPath": [
+                                        "location"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddd6a57da45209a86d32d8"
+                },
+                "id": "5cddd6a57da45209a86d32d7",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-15T19:15:41.467Z",
+                    "modified": "2019-05-15T19:15:41.467Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "cloudScripts",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "scriptModal",
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdc655d77637a58b6e3b85c"
+                },
+                "id": "5cdc655d77637a58b6e3b85b",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-akashkan",
+                    "created": "2019-05-21T08:36:31.007Z",
+                    "modified": "2019-05-21T08:36:31.007Z",
+                    "modifiedBy": "ext-akashkan"
+                },
+                "data": {
+                    "name": "userLeaderboard",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "Score": {
+                                    "fieldsPath": [
+                                        "score"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Type": {
+                                    "fieldsPath": [
+                                        "type"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Value": {
+                                    "fieldsPath": [
+                                        "value"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "name",
+                                        "pid"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Rank": {
+                                    "fieldsPath": [
+                                        "rank"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce3b88fdb424328d22dfe83"
+                },
+                "id": "5ce3b88fdb424328d22dfe82",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-pherrada",
+                    "created": "2019-05-20T22:06:27.238Z",
+                    "modified": "2019-05-20T22:06:27.238Z",
+                    "modifiedBy": "ext-pherrada"
+                },
+                "data": {
+                    "name": "events",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Description": {
+                                    "fieldsPath": [
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Announcement": {
+                                    "fieldsPath": [
+                                        "data.announceSeconds",
+                                        "data.announcement"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 12
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 13
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.scriptName",
+                                        "data.rank",
+                                        "data.labels",
+                                        "data.description.name",
+                                        "data.maxAttempts",
+                                        "data.maxSucceeds"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "When Succeeded": {
+                                    "fieldsPath": [
+                                        "data.successAction.name",
+                                        "data.successAction.itemOffer"
+                                    ],
+                                    "orderingPosition": 11
+                                },
+                                "When Failed": {
+                                    "fieldsPath": [
+                                        "data.failAction.name",
+                                        "data.failAction.itemOffer"
+                                    ],
+                                    "orderingPosition": 10
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "When Accepted": {
+                                    "fieldsPath": [
+                                        "data.acceptAction.name",
+                                        "data.acceptAction.itemOffer",
+                                        "data.labels",
+                                        "data.description.name",
+                                        "data.maxAttempts",
+                                        "data.maxSucceeds"
+                                    ],
+                                    "orderingPosition": 9
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "itemOffers": {
+                                    "subPlugin": "itemOffers",
+                                    "service": "inventory",
+                                    "fields": [
+                                        "data.acceptAction.name",
+                                        "data.acceptAction.itemOffer",
+                                        "data.failAction.name",
+                                        "data.failAction.itemOffer",
+                                        "data.successAction.name",
+                                        "data.successAction.itemOffer"
+                                    ]
+                                },
+                                "itemTypes": {
+                                    "subPlugin": "itemTypes",
+                                    "service": "inventory",
+                                    "fields": []
+                                },
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.scriptName"
+                                    ]
+                                },
+                                "shopItemOffers": {
+                                    "subPlugin": "shopItemOffers",
+                                    "service": "inventory",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce324e34479517bc90b3ecd"
+                },
+                "id": "5ce324e34479517bc90b3ecc",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-17T15:12:01.644Z",
+                    "modified": "2019-05-17T15:12:01.644Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "itemTypes",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "onInitialize",
+                                        "data.count",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdecf41031f1569f99e13b0"
+                },
+                "id": "5cdecf41031f1569f99e13af",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-pherrada",
+                    "created": "2019-05-17T22:38:52.977Z",
+                    "modified": "2019-05-17T22:38:52.977Z",
+                    "modifiedBy": "ext-pherrada"
+                },
+                "data": {
+                    "name": "xboxOneStoreOffers",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "ItemOffer": {
+                                    "fieldsPath": [
+                                        "data.itemOffer",
+                                        "data.storeOfferId"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.productId",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.scriptName"
+                                    ]
+                                },
+                                "shopItemOffers": {
+                                    "subPlugin": "shopItemOffers",
+                                    "service": "inventory",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdf37fccbddcd71138a41ff"
+                },
+                "id": "5cdf37fccbddcd71138a41fe",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-28T19:50:56.745Z",
+                    "modified": "2019-05-28T19:50:56.745Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "participations",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "type",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.score",
+                                        "data.attempted",
+                                        "data.finished",
+                                        "data.occurrence"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.type",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.score",
+                                        "data.attempted",
+                                        "data.finished",
+                                        "data.occurrence"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ced91205e53032d0ee8f079"
+                },
+                "id": "5ced91205e53032d0ee8f078",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:55:41.118Z",
+                    "modified": "2019-05-16T21:55:41.118Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "metricFields",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Workflow": {
+                                    "fieldsPath": [
+                                        "metadata.workflow.priority",
+                                        "metadata.workflow.status"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.schema",
+                                        "data.isBI",
+                                        "data.fromContext"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdddc5d7da45209a86d3353"
+                },
+                "id": "5cdddc5d7da45209a86d3352",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-18T03:29:37.341Z",
+                    "modified": "2019-05-18T03:29:37.341Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "steamStoreOffers",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "ItemOffer": {
+                                    "fieldsPath": [
+                                        "data.itemOffer"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.itemId",
+                                        "data.price",
+                                        "data.etag",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 6
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.scriptName"
+                                    ]
+                                },
+                                "shopItemOffers": {
+                                    "subPlugin": "shopItemOffers",
+                                    "service": "inventory",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdf7c21cbddcd71138a448c"
+                },
+                "id": "5cdf7c21cbddcd71138a448b",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T20:03:10.105Z",
+                    "modified": "2019-05-16T20:03:10.105Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "userDeliverys",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Origin": {
+                                    "fieldsPath": [
+                                        "data.origin.batch",
+                                        "data.origin.transaction"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.from",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.labels",
+                                        "data.message",
+                                        "data.attachment",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.from"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddc1fe7da45209a86d31d1"
+                },
+                "id": "5cddc1fe7da45209a86d31d0",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-28T20:20:20.143Z",
+                    "modified": "2019-05-28T20:20:20.143Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "transactions",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "type",
+                                        "location",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.message",
+                                        "data.description",
+                                        "data.operations"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ced98045e53032d0ee8f12d"
+                },
+                "id": "5ced98045e53032d0ee8f12c",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-pherrada",
+                    "created": "2019-05-20T19:37:40.546Z",
+                    "modified": "2019-05-20T19:37:40.546Z",
+                    "modifiedBy": "ext-pherrada"
+                },
+                "data": {
+                    "name": "deliveryTemplates",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 9
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Summary": {
+                                    "fieldsPath": [
+                                        "data.message.summary"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Title": {
+                                    "fieldsPath": [
+                                        "data.message.title"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.from",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Attachments": {
+                                    "fieldsPath": [
+                                        "data.attachment.redeemTransactionId",
+                                        "data.attachment.itemOffer"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "Body": {
+                                    "fieldsPath": [
+                                        "data.message.body"
+                                    ],
+                                    "orderingPosition": 7
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        },
+                        "dependencies": {
+                            "fields": {
+                                "itemOffers": {
+                                    "subPlugin": "itemOffers",
+                                    "service": "inventory",
+                                    "fields": [
+                                        "data.attachment.itemOffer"
+                                    ]
+                                },
+                                "itemTypes": {
+                                    "subPlugin": "itemTypes",
+                                    "service": "inventory",
+                                    "fields": []
+                                },
+                                "cloudScript": {
+                                    "subPlugin": "",
+                                    "service": "cloudScript",
+                                    "fields": [
+                                        "data.scriptName"
+                                    ]
+                                },
+                                "shopItemOffers": {
+                                    "subPlugin": "shopItemOffers",
+                                    "service": "inventory",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce302044479517bc90b3bac"
+                },
+                "id": "5ce302044479517bc90b3bab",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-17T14:31:58.456Z",
+                    "modified": "2019-05-17T14:31:58.456Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "configSchemas",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "ns"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.schema"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdec5de031f1569f99e12a5"
+                },
+                "id": "5cdec5de031f1569f99e12a4",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:44:08.020Z",
+                    "modified": "2019-05-16T21:44:08.020Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "localizedLanguages",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.mandatory"
+                                    ],
+                                    "orderingPosition": 2
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.mandatory"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddd9a87da45209a86d333b"
+                },
+                "id": "5cddd9a87da45209a86d333a",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-28T20:46:14.296Z",
+                    "modified": "2019-05-28T20:46:14.296Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "userItems",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status",
+                                        "location"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "type",
+                                        "data.count",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "type",
+                                        "data.count",
+                                        "data.labels",
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 2
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ced9e165e53032d0ee8f1df"
+                },
+                "id": "5ced9e165e53032d0ee8f1de",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:45:39.167Z",
+                    "modified": "2019-05-16T21:45:39.167Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "localizedResources",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.type",
+                                        "data.text"
+                                    ],
+                                    "orderingPosition": 1
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.type",
+                                        "data.text"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddda037da45209a86d3340"
+                },
+                "id": "5cddda037da45209a86d333f",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-17T15:14:51.194Z",
+                    "modified": "2019-05-17T15:14:51.194Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "shops",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.labels",
+                                        "data.shopItemOfferNames"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdecfeb031f1569f99e13d6"
+                },
+                "id": "5cdecfeb031f1569f99e13d5",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:41:09.589Z",
+                    "modified": "2019-05-16T21:41:09.589Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "segmentations",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "location"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.value"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cddd8f57da45209a86d3326"
+                },
+                "id": "5cddd8f57da45209a86d3325",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-23T20:17:05.775Z",
+                    "modified": "2019-05-23T20:17:05.775Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "accounts",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "location"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.displayName"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Profile": {
+                                    "fieldsPath": [
+                                        "profile"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "groupDefinition": [
+                            {
+                                "name": "GeneralLocation",
+                                "orderingPosition": 1,
+                                "sections": [
+                                    {
+                                        "section": "General",
+                                        "fieldsPath": [
+                                            "location"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Location",
+                                "orderingPosition": 2,
+                                "sections": [
+                                    {
+                                        "section": "General",
+                                        "fieldsPath": [
+                                            "data.name"
+                                        ]
+                                    },
+                                    {
+                                        "section": "Profile",
+                                        "fieldsPath": [
+                                            "profile"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Data",
+                                "orderingPosition": 3,
+                                "sections": [
+                                    {
+                                        "section": "Data",
+                                        "fieldsPath": [
+                                            "data.displayName"
+                                        ]
+                                    },
+                                    {
+                                        "section": "Metadata",
+                                        "fieldsPath": [
+                                            "metadata"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.displayName"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5ce6ffc19bf5e72a4fe52b09"
+                },
+                "id": "5ce6ffc19bf5e72a4fe52b08",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T21:56:13.600Z",
+                    "modified": "2019-05-16T21:56:13.600Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "metricSchemas",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Workflow": {
+                                    "fieldsPath": [
+                                        "metadata.workflow.priority",
+                                        "metadata.workflow.status"
+                                    ],
+                                    "orderingPosition": 5
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.isDev",
+                                        "data.isBI",
+                                        "data.schema"
+                                    ],
+                                    "orderingPosition": 3
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "data.description"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdddc7d7da45209a86d3358"
+                },
+                "id": "5cdddc7d7da45209a86d3357",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-15T21:25:59.903Z",
+                    "modified": "2019-05-15T21:25:59.903Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "shopItemOffers",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.itemOffers",
+                                        "data.storeOfferId"
+                                    ],
+                                    "orderingPosition": 4
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdc83e777637a58b6e3bab4"
+                },
+                "id": "5cdc83e777637a58b6e3bab3",
+                "_version": 0
+            }
+        ],
+        [
+            {
+                "metadata": {
+                    "comments": [],
+                    "lockData": {
+                        "lockedBy": ""
+                    },
+                    "workflow": {
+                        "priority": "P0",
+                        "status": "TODO"
+                    },
+                    "createdBy": "ext-smendieta",
+                    "created": "2019-05-16T15:01:03.818Z",
+                    "modified": "2019-05-16T15:01:03.818Z",
+                    "modifiedBy": "ext-smendieta"
+                },
+                "data": {
+                    "name": "infocasts",
+                    "definition": {
+                        "schema": {
+                            "fields": {
+                                "": {
+                                    "fieldsPath": [
+                                        "dtoMetadataInfo"
+                                    ],
+                                    "orderingPosition": 1
+                                },
+                                "Schedule": {
+                                    "fieldsPath": [
+                                        "data.schedule"
+                                    ],
+                                    "orderingPosition": 4
+                                },
+                                "Attributes": {
+                                    "fieldsPath": [
+                                        "data.attributes"
+                                    ],
+                                    "orderingPosition": 7
+                                },
+                                "Metadata": {
+                                    "fieldsPath": [
+                                        "metadata.comments",
+                                        "metadata.attributes"
+                                    ],
+                                    "orderingPosition": 8
+                                },
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name",
+                                        "status"
+                                    ],
+                                    "orderingPosition": 2
+                                },
+                                "Segments": {
+                                    "fieldsPath": [
+                                        "segments.anyOf",
+                                        "segments.allOf",
+                                        "segments.noneOf"
+                                    ],
+                                    "orderingPosition": 3
+                                },
+                                "Data": {
+                                    "fieldsPath": [
+                                        "data.rank",
+                                        "data.labels"
+                                    ],
+                                    "orderingPosition": 6
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 5
+                                }
+                            }
+                        },
+                        "creationSchema": {
+                            "fields": {
+                                "General": {
+                                    "fieldsPath": [
+                                        "data.name"
+                                    ],
+                                    "orderingPosition": 0
+                                },
+                                "Localization": {
+                                    "fieldsPath": [
+                                        "data.message"
+                                    ],
+                                    "orderingPosition": 0
+                                }
+                            }
+                        }
+                    },
+                    "etag": "5cdd7b2f7da45209a86d2d3a"
+                },
+                "id": "5cdd7b2f7da45209a86d2d39",
+                "_version": 0
+            }
+        ]
+    ],
+    "from": 0,
+    "to": 100,
+    "count": 34
+}
